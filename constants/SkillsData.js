@@ -16,7 +16,7 @@ import {
 } from "react-icons/si";
 import { DiJavascript1, DiReact, DiMongodb, DiCodeigniter } from "react-icons/di";
 import { BsGit, BsGithub } from "react-icons/bs";
-import { FaBootstrap, FaCss3Alt, FaAngular, FaPhp, FaLaravel, FaJava, FaAws, FaPython, FaJenkins } from "react-icons/fa";
+import { FaBootstrap, FaCss3Alt, FaAngular, FaPhp, FaLaravel, FaJava, FaAws, FaPython, FaJenkins, FaJira, FaConfluence } from "react-icons/fa";
 import { TbBrandReactNative, TbBrandGolang } from "react-icons/tb";
 import { GrMysql } from "react-icons/gr";
 
@@ -166,6 +166,14 @@ export const TechStackData = [
       {
         name: "Splunk",
         icon: <SiSplunk className="md:text-4xl text-2xl" />
+      },
+      {
+        name: "Jira",
+        icon: <FaJira className="md:text-4xl text-2xl"  color="#08668e" />
+      },
+      {
+        name: "Confluence",
+        icon: <FaConfluence className="md:text-4xl text-2xl"  color="#08668e" />
       }
     ]
 

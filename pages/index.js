@@ -23,12 +23,12 @@ const Home = () => {
       <Head>
         <title>Prasastia&apos;s Portfolio</title>
         {/* <!-- Primary Meta Tags --> */}
-        <meta content="Shiv's Portfolio" name="title" />
+        <meta content="Prasastia's Portfolio" name="title" />
         <meta content="Explore the best Next.js and React.js portfolio by Shivraj Gurjar. Featuring simple, dark and light theme designs and mobile responsiveness." name="description" />
 
         {/* <!-- Open Graph / Facebook --> */}
         <meta content="website" property="og:type" />
-        <meta content="https://prasastiaasaliha-portfolio.vercel.app" property="og:url" />
+        <meta content="https://prasastia-aryani-saliha-resume.vercel.app/" property="og:url" />
         <meta content="Prasastia's Portfolio" property="og:title" />
         
         
