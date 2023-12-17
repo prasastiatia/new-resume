@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 
+
 const ChatSystem = () => {
   useEffect(() => {
     // Tawk.to script
@@ -9,7 +10,7 @@ const ChatSystem = () => {
       var s1 = document.createElement("script"),
         s0 = document.getElementsByTagName("script")[0];
       s1.async = true;
-      s1.src = `https://embed.tawk.to/${process.env.NEXT_PUBLIC_TAWK_TO_API_KEY}`;
+      s1.src = `https://embed.tawk.to/657e97d807843602b802ea68/1hhr82abd`;
       s1.charset = "UTF-8";
       s1.setAttribute("crossorigin", "*");
       s0.parentNode.insertBefore(s1, s0);

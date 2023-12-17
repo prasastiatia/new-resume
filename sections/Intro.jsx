@@ -4,7 +4,7 @@ import Head from "next/head";
 import Link from "next/link";
 
 const Intro = () => {
-  const [isHome, setIsHome] = useState(false);
+  const [isHome, setIsHome] = useState(true);
 
   const homeRef = useRef();
   const introRef = useRef();
@@ -29,21 +29,24 @@ const Intro = () => {
       );
 
       homeObserver.observe(homeRef.current);
+      
+      profileRef.current.classList.add("slide-in");
+      introRef.current.classList.add("slide-in");
 
-      if (isHome) {
-        profileRef.current.classList.add("slide-in");
-        introRef.current.classList.add("slide-in");
-      } else {
-        profileRef.current.classList.remove("slide-in");
-        introRef.current.classList.remove("slide-in");
-      }
+      // if (isHome) {
+      //   profileRef.current.classList.add("slide-in");
+      //   introRef.current.classList.add("slide-in");
+      // } else {
+      //   profileRef.current.classList.remove("slide-in");
+      //   introRef.current.classList.remove("slide-in");
+      // }
     }
   }, [homeRef, isHome]);
 
   return (
     <Fragment>
       <Head>
-        <title>Shiv&apos;s Portfolio</title>
+        <title>Prasastia&apos;s Portfolio</title>
       </Head>
       <section id='home'>
         <div
@@ -59,10 +62,10 @@ const Intro = () => {
             </p>
             {/* Profile Name */}
             <p className='text-2xl md:text-4xl py-2 font-semibold font-sans'>
-              I&apos;m a full stack
+              I&apos;m a Backend / Web
               <span className='text-[#c72c6c] dark:text-[#07d0e5]'>
                 {" "}
-                developer <span className='text-white'>|</span>
+                Developer 
               </span>
             </p>
             <div className='mt-5 md:mt-10 flex gap-3'>
@@ -76,7 +79,7 @@ const Intro = () => {
               {/* Download CV Button */}
               <Link
                 className='text-xl font-semibold rounded border border-red-500 hover:text-white hover:bg-red-500 px-2 py-1'
-                href='https://drive.google.com/file/d/1uk-tv12y8PK-WrE4oX2xRtmSy4PUVSsE/view'
+                href='https://bit.ly/CvPrasastia'
                 target='_blank'
               >
                 Download CV
@@ -87,10 +90,10 @@ const Intro = () => {
           {/* Image */}
           <div
             className={
-              "translate-x-[500px] transition-all opacity-0 duration-700 w-[180px] h-[300px] md:w-[240px] md:h-[400px] bg-cover m-auto md:m-0 mt-[40px] md:mt-0 bg-no-repeat"
+              "translate-x-[500px] transition-all opacity-0 duration-700 w-[180px] h-[300px] md:w-[250px] md:h-[250px] bg-cover m-auto md:m-0 mt-[40px] md:mt-0 bg-no-repeat"
             }
             ref={profileRef}
-            style={{ backgroundImage: "url(/images/male.png)" }}
+            style={{ backgroundImage: "url(/images/girl-hijab.png)" }}
           />
         </div>
       </section>

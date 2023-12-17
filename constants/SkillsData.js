@@ -5,34 +5,27 @@ import {
   SiVercel,
   SiNetlify,
   SiExpress,
-  SiRedux,
+  SiRedis,
   SiTailwindcss,
   SiMui,
-  SiChakraui,
+  SiGooglecloud,
   SiFirebase,
   SiTypescript,
-  SiJquery
+  SiJquery,
+  SiSplunk
 } from "react-icons/si";
-import { DiJavascript1, DiReact, DiMongodb, DiSass } from "react-icons/di";
+import { DiJavascript1, DiReact, DiMongodb, DiCodeigniter } from "react-icons/di";
 import { BsGit, BsGithub } from "react-icons/bs";
-import { FaBootstrap, FaCss3Alt, FaAngular, FaPhp, FaShopify, FaJava } from "react-icons/fa";
-import { TbBrandReactNative } from "react-icons/tb";
+import { FaBootstrap, FaCss3Alt, FaAngular, FaPhp, FaLaravel, FaJava, FaAws, FaPython, FaJenkins } from "react-icons/fa";
+import { TbBrandReactNative, TbBrandGolang } from "react-icons/tb";
 import { GrMysql } from "react-icons/gr";
 
 export const TechStackData = [
   {
     Advance: [
       {
-        name: "ReactJS",
-        icon: <DiReact className="md:text-4xl text-2xl" color="#53c1de" />,
-      },
-      {
         name: "JavaScript",
         icon: <DiJavascript1 className="md:text-4xl text-2xl" color="#ffd600" />,
-      },
-      {
-        name: "Redux-toolkit",
-        icon: <SiRedux className="md:text-4xl text-2xl" color="#7e57c2" />,
       },
       {
         name: "HTML5",
@@ -55,22 +48,12 @@ export const TechStackData = [
         icon: <SiMui className="md:text-4xl text-2xl" color="#29b6f6" />,
       },
       {
-        name: "Chakra UI",
-        icon: <SiChakraui className="md:text-4xl text-2xsl" color="#50cbc0" />
-      },
-      {
-        name: "Vercel",
-        icon: <SiVercel className="dark:text-white text-black md:text-4xl text-2xl" />
-      },
-      {
         name: "Github",
         icon: <BsGithub className="md:text-4xl text-2xl" color="#c9d1d9" />
       },
-    ],
-    Good: [
       {
-        name: "NextJS",
-        icon: <SiNextdotjs className="md:text-4xl text-2xl dark:text-white text-black" />
+        name: "Git",
+        icon: <BsGit className="md:text-4xl text-2xl" color="#f4511e" />
       },
       {
         name: "NodeJS",
@@ -79,6 +62,24 @@ export const TechStackData = [
       {
         name: "Express",
         icon: <SiExpress className="md:text-4xl text-2xl" color="#555555" />,
+      },
+      {
+        name: "PHP",
+        icon: <FaPhp className="md:text-4xl text-2xl" color="#7b7fb5" />
+      },
+      {
+        name: "MySQL",
+        icon: <GrMysql className="md:text-4xl text-2xl" color="#08668e" />
+      },
+      {
+        name: "Laravel",
+        icon: <FaLaravel className="md:text-4xl text-2xl" color="#f4511e" />
+      },
+    ],
+    Good: [
+      {
+        name: "NextJS",
+        icon: <SiNextdotjs className="md:text-4xl text-2xl dark:text-white text-black" />
       },
       {
         name: "MongoDB",
@@ -93,21 +94,6 @@ export const TechStackData = [
         icon: <SiJquery className="md:text-4xl text-2xsl" color="#106dae" />
       },
       {
-        name: "netlify",
-        icon: <SiNetlify className="md:text-4xl text-2xl" color={"#31b5ba"} />
-      },
-      {
-        name: "Git",
-        icon: <BsGit className="md:text-4xl text-2xl" color="#f4511e" />
-      },
-
-    ],
-    Familiar: [
-      {
-        name: "TypeScript",
-        icon: <SiTypescript className="md:text-4xl text-2xl" color="#377cc8" />
-      },
-      {
         name: "Angular",
         icon: <FaAngular className="md:text-4xl text-2xl" color="#c50836" />
       },
@@ -116,24 +102,70 @@ export const TechStackData = [
         icon: <TbBrandReactNative className="md:text-4xl text-2xl" color="#66dbfb" />
       },
       {
-        name: "PHP",
-        icon: <FaPhp className="md:text-4xl text-2xl" color="#7b7fb5" />
+        name: "Vercel",
+        icon: <SiVercel className="dark:text-white text-black md:text-4xl text-2xl" />
+      },
+      {
+        name: "ReactJS",
+        icon: <DiReact className="md:text-4xl text-2xl" color="#53c1de" />,
       },
       {
         name: "JAVA",
         icon: <FaJava className="md:text-4xl text-2xl" color="#547c99" />
       },
       {
-        name: "SASS",
-        icon: <DiSass className="md:text-4xl text-2xl" color="#f06292" />,
+        name: "Golang",
+        icon: <TbBrandGolang className="md:text-4xl text-2xl" color="#66dbfb" />
+      },
+      {
+        name: "Python",
+        icon: <FaPython className="md:text-4xl text-2xl" color="#7b7fb5" />
+      }
+    ],
+    Familiar: [
+      {
+        name: "NodeJS",
+        icon: <SiNodedotjs className="md:text-4xl text-2xl" color="#4caf50" />,
+      },
+      {
+        name: "Express",
+        icon: <SiExpress className="md:text-4xl text-2xl" color="#555555" />,
+      },
+      {
+        name: "Laravel",
+        icon: <FaLaravel className="md:text-4xl text-2xl" color="#f4511e" />
+      },
+      {
+        name: "Codeigniter",
+        icon: <DiCodeigniter className="md:text-4xl text-2xl" color="#f4511e" />,
+      },
+      {
+        name: "PHP",
+        icon: <FaPhp className="md:text-4xl text-2xl" color="#7b7fb5" />
       },
       {
         name: "MySQL",
         icon: <GrMysql className="md:text-4xl text-2xl" color="#08668e" />
       },
       {
-        name: "Shopify",
-        icon: <FaShopify className="md:text-4xl text-2xl" color="#99c14f" />
+        name: "Redis",
+        icon: <SiRedis className="md:text-4xl text-2xl" color="#c50836" />
+      },
+      {
+        name: "AWS",
+        icon: <FaAws className="md:text-4xl text-2xl"  />
+      },
+      {
+        name: "GCP",
+        icon: <SiGooglecloud className="md:text-4xl text-2xl" color="#08668e" />,
+      },
+      {
+        name: "Jenkins",
+        icon: <FaJenkins className="md:text-4xl text-2xl"  />
+      },
+      {
+        name: "Splunk",
+        icon: <SiSplunk className="md:text-4xl text-2xl" />
       }
     ]
 

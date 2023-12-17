@@ -1,29 +1,56 @@
 export const ProjectsData = [
     {
-        projectName: "Shovee : Personal Portfolio Generator",
-        liveUrl: "https://shovee.com",
-        githubUrl: "https://github.com/iamshiv007/shovee",
+        projectName: "MyTelkomsel Apps (Backend Features)",
+        liveUrl: "https://www.telkomsel.com/mytelkomsel",
+        githubUrl: "",
         projectImage: {
-            imageUrl: "http://res.cloudinary.com/dqfrtazgi/image/upload/v1696218285/yn3naeznjfgszsbbjr92.png"
+            imageUrl: "http://res.cloudinary.com/dmjlldpwl/image/upload/v1702817936/kstw6i2qpeim2z2ctzrx.png"
         },
-        techs: ["NextJS", "TailwindCSS", "Redux Toolkit", "Cloudinary", "Intersection Objerver"]
+        techs: ["Node.js", "Express.js", "Redis", "MySQL", "Oracle", "AWS", "Jenkins", "Splunk", "API Development"]
     },
     {
-        projectName: "YouTube clone",
-        liveUrl: "https://youtube-clone-shivraj.vercel.app",
-        githubUrl: "https://github.com/iamshiv007/yotube-clone",
+        projectName: "CRM Rumain with InfyCRM Laravel",
+        liveUrl: "",
+        githubUrl: "",
         projectImage: {
-            imageUrl: "http://res.cloudinary.com/dqfrtazgi/image/upload/v1696218286/t1zjvlwogccwit9888w7.png"
+            imageUrl: "http://res.cloudinary.com/dmjlldpwl/image/upload/v1702817392/grbgcbkfal4myoy5s1el.png"
         },
-        techs: ["ReactJS", "ContextAPI", "ChakraUI", "YoutubeAPI", "ContextAPI"]
+        techs: ["InfyCRM Laravel", "MySQL", "PHP 7", "HTML/CSS", "REST API", "Javascript", "AJAX", "Vue.js"]
     },
     {
-        projectName: "Eccommerce Application",
-        liveUrl: "https://ecommerce-application-shivraj.vercel.app",
-        githubUrl: "https://github.com/iamshiv007/ecommerce-frontend",
+        projectName: "CRM Rumain with SuiteCRM",
+        liveUrl: "",
+        githubUrl: "",
         projectImage: {
-            imageUrl: "http://res.cloudinary.com/dqfrtazgi/image/upload/v1696220173/lnnt6nmesjvvmo3nx9ep.png"
+            imageUrl: "http://res.cloudinary.com/dmjlldpwl/image/upload/v1702816177/ttjfxqyjbk7ch5tabnzy.png"
         },
-        techs: ["ReactJS", "NodeJS", "Express", "MongoDB", "Redux Toolkit"]
+        techs: ["SuiteCRM", "PHP 5.6", "MySQL", "HTML", "CSS", "Javascript"]
+    },
+    {
+        projectName: "CRM Ulab with SuiteCRM",
+        liveUrl: "",
+        githubUrl: "",
+        projectImage: {
+            imageUrl: "http://res.cloudinary.com/dmjlldpwl/image/upload/v1702816176/wrzskvb7domof03dyh3j.png"
+        },
+        techs: ["SuiteCRM", "PHP 5.6", "MySQL", "HTML", "CSS", "Javascript"]
+    },
+    {
+        projectName: "Management Information System for PKK Kota Depok",
+        liveUrl: "",
+        githubUrl: "",
+        projectImage: {
+            imageUrl: "https://res.cloudinary.com/dmjlldpwl/image/upload/v1702816177/nmsps4on1mjoopux4yel.jpg"
+        },
+        techs: ["Codeigniter", "PHP 5.6", "MySQL", "HTML", "CSS", "Javascript", "AJAX"]
+    },
+    {
+        projectName: "Website for SFS Law Office",
+        liveUrl: "",
+        githubUrl: "",
+        projectImage: {
+            imageUrl: "http://res.cloudinary.com/dmjlldpwl/image/upload/v1702816177/httpdbhye2o9vwg3a5f3.png"
+        },
+        techs: ["Laravel", "PHP 5.6", "MySQL", "HTML", "CSS", "Javascript"]
     }
 ]

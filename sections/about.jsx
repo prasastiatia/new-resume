@@ -7,7 +7,7 @@ import { IoPerson } from "react-icons/io5";
 import { BsMenuAppFill } from "react-icons/bs";
 
 const About = () => {
-  const [isAbout, setIsAbout] = useState(false);
+  const [isAbout, setIsAbout] = useState(true);
 
   const aboutRef = useRef();
   const profile2Ref = useRef();
@@ -31,14 +31,11 @@ const About = () => {
       );
 
       aboutObserver.observe(aboutRef.current);
+      
+      profile2Ref.current.classList.add("slide-in");
+      aboutInfoRef.current.classList.add("slide-in");
 
-      if (isAbout) {
-        profile2Ref.current.classList.add("slide-in");
-        aboutInfoRef.current.classList.add("slide-in");
-      } else {
-        profile2Ref.current.classList.remove("slide-in");
-        aboutInfoRef.current.classList.remove("slide-in");
-      }
+      
     }
   }, [isAbout, aboutRef]);
 
@@ -61,7 +58,7 @@ const About = () => {
             }
             height={350}
             ref={profile2Ref}
-            src='http://res.cloudinary.com/dqfrtazgi/image/upload/v1696181689/wt7sys9ubcvc41v6clq8.jpg'
+            src='https://res.cloudinary.com/dmjlldpwl/image/upload/v1702814280/yuv4qzruyqiv29bpmrvx.jpg'
             width={350}
           />
           <div
@@ -70,11 +67,11 @@ const About = () => {
           >
             {/* Full Name */}
             <p className='text-3xl text-center md:text-left font-semibold text-[#c72c6c] dark:text-[#07d0e5]'>
-              Shivraj Gurjar
+              Prasastia Aryani Saliha
             </p>
             {/* Profil Name */}
             <p className='text-center md:text-left text-red-600 mt-1'>
-              Ful stack web developer
+              Backend / Web Developer
             </p>
             {/* Location */}
             <div className='flex flex-wrap justify-center md:justify-normal gap-5'>
@@ -88,7 +85,7 @@ const About = () => {
                   </p>
                 </div>
                 <p className='text-center md:text-left text-[#0b0c0c] dark:text-[#07d0e5]'>
-                  Kota Rajasthan India{" "}
+                  Kota Depok, Jawa Barat, Indonesia{" "}
                 </p>
               </div>
               {/* Age */}
@@ -102,7 +99,7 @@ const About = () => {
                   </p>
                 </div>
                 <p className='text-center md:text-left text-[#c72c6c] dark:text-[#07d0e5]'>
-                  20{" "}
+                  26{" "}
                 </p>
               </div>
               {/* Experience */}
@@ -116,7 +113,7 @@ const About = () => {
                   </p>
                 </div>
                 <p className='text-center md:text-left text-[#c72c6c] dark:text-[#07d0e5]'>
-                  1 Year{" "}
+                  4 Years{" "}
                 </p>
               </div>
               {/* Project */}
@@ -130,20 +127,18 @@ const About = () => {
                   </p>
                 </div>
                 <p className='text-center md:text-left text-[#c72c6c] dark:text-[#07d0e5]'>
-                  3{" "}
+                  7{" "}
                 </p>
               </div>
             </div>
 
             <div className='mt-5 justify-evenly text-justify'>
               <p className='text-gray-600 dark:text-gray-300'>
-                Passionate and driven ReactJS developer with a strong foundation
-                in MERN Stack and NextJS. Dedicated to creating dynamic and
-                user-centric web applications. Eager to contribute my expertise
-                in frontend frameworks, modern UI/UX design, and responsive
-                development to a forward-thinking team, while continuously
-                learning and growing in the ever-evolving world of web
-                development.
+                Software Engineer with 4 years of Web and Backend Development experience. 
+                Deadline-driven and knowledgeable professional with a strong desire to learn and contribute to team success. 
+                Collaborative and hardworking team player with critical thinking skills and a systematic approach. 
+                Now, concentrate on Node.js [Express Framework], MySQL Database, and creating several APIs with Node.js.
+                 Interested in learning new programming languages such as Golang.
               </p>
             </div>
           </div>

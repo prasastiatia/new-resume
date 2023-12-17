@@ -6,7 +6,7 @@ import { IoSchoolSharp } from "react-icons/io5";
 import { EducationData } from "@/constants/EducationData";
 
 const Education = () => {
-  const [isEducation, setIsEducation] = useState(false);
+  const [isEducation, setIsEducation] = useState(true);
   const educationRef = useRef();
   const educationBoxesRef = useRef();
 
@@ -27,11 +27,9 @@ const Education = () => {
 
     educationObserver.observe(educationRef.current);
 
-    if (isEducation) {
-      educationBoxesRef.current.classList.add("pop-up-child");
-    } else {
-      educationBoxesRef.current.classList.remove("pop-up-child");
-    }
+    educationBoxesRef.current.classList.add("pop-up-child");
+
+    
   }, [isEducation]);
 
   return (
