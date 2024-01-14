@@ -3,14 +3,12 @@ import {
   SiNodedotjs,
   SiNextdotjs,
   SiVercel,
-  SiNetlify,
   SiExpress,
   SiRedis,
   SiTailwindcss,
   SiMui,
   SiGooglecloud,
   SiFirebase,
-  SiTypescript,
   SiJquery,
   SiSplunk
 } from "react-icons/si";
@@ -96,10 +94,6 @@ export const TechStackData = [
       {
         name: "Angular",
         icon: <FaAngular className="md:text-4xl text-2xl" color="#c50836" />
-      },
-      {
-        name: "React Native",
-        icon: <TbBrandReactNative className="md:text-4xl text-2xl" color="#66dbfb" />
       },
       {
         name: "Vercel",

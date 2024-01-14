@@ -72,7 +72,7 @@ const Intro = () => {
               {/* Hire Me Button */}
               <Link
                 className='text-white text-xl font-semibold rounded bg-red-400 hover:bg-red-500 px-2 py-1'
-                href={"#getInTouch"}
+                href='https://www.linkedin.com/in/prasastia-aryani-saliha/'
               >
                 Hire me
               </Link>
