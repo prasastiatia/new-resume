@@ -39,6 +39,22 @@ const About = () => {
     }
   }, [isAbout, aboutRef]);
 
+  function calculateAge(dateOfBirth) {
+    let dob = new Date(dateOfBirth);  
+     //calculate month difference from current date in time  
+     let month_diff = Date.now() - dob.getTime();  
+       
+     //convert the calculated difference in date format  
+     let age_dt = new Date(month_diff);   
+       
+     //extract year from date      
+     let year = age_dt.getUTCFullYear();  
+       
+     //now calculate the age of the user  
+     let age = Math.abs(year - 1970);  
+     return age  
+       
+ }
   return (
     <Fragment>
       <section
@@ -98,8 +114,9 @@ const About = () => {
                     <IoPerson />
                   </p>
                 </div>
+                
                 <p className='text-center md:text-left text-[#c72c6c] dark:text-[#07d0e5]'>
-                  26{" "}
+                  calculateAge("08/15/1997"){" "}
                 </p>
               </div>
               {/* Experience */}
