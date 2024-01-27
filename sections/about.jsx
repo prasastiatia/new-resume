@@ -37,7 +37,7 @@ const About = () => {
 
       
     }
-  }, [isAbout, aboutRef]);
+  }, [isAbout, aboutRef]); 
 
   function calculateAge(dateOfBirth) {
     let dob = new Date(dateOfBirth);  
@@ -116,7 +116,7 @@ const About = () => {
                 </div>
                 
                 <p className='text-center md:text-left text-[#c72c6c] dark:text-[#07d0e5]'>
-                  calculateAge("08/15/1997"){" "}
+                  {calculateAge("08/15/1997")}{" "}
                 </p>
               </div>
               {/* Experience */}
