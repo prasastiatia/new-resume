@@ -130,7 +130,7 @@ const About = () => {
                   </p>
                 </div>
                 <p className='text-center md:text-left text-[#c72c6c] dark:text-[#07d0e5]'>
-                  4 Years{" "}
+                  {calculateAge("09/21/2019")} Years{" "}
                 </p>
               </div>
               {/* Project */}
