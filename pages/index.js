@@ -24,8 +24,7 @@ const Home = () => {
         <title>Prasastia&apos;s Portfolio</title>
         {/* <!-- Primary Meta Tags --> */}
         <meta content="Prasastia's Portfolio" name="title" />
-        <meta content="Explore the best Next.js and React.js portfolio by Shivraj Gurjar. Featuring simple, dark and light theme designs and mobile responsiveness." name="description" />
-
+        
         {/* <!-- Open Graph / Facebook --> */}
         <meta content="website" property="og:type" />
         <meta content="https://prasastia-aryani-saliha-resume.vercel.app/" property="og:url" />
