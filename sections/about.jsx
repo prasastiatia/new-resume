@@ -151,9 +151,10 @@ const About = () => {
 
             <div className='mt-5 justify-evenly text-justify'>
               <p className='text-gray-600 dark:text-gray-300'>
-                Results-driven Software Engineer with 5+ years of experience specializing in backend and web development. 
-                Proficient in Node.js, MySQL, and API integrations, with a proven track record of leading teams, optimizing application performance, and mentoring junior developers. 
-                Demonstrates a commitment to continuous learning and innovation by exploring emerging technologies such as Golang to enhance project outcomes and maintain industry relevance.
+                 Software Engineer with 5+ years of experience in web and backend development, specializing in Node.js, MySQL, and API
+                 integrations. Demonstrated leadership in managing WebAPI teams for Loyalty and Gami cation, successfully optimizing API
+                 performance and mentoring junior developers. Skilled in delivering high-performance applications and driving continuous
+                 improvement. Actively exploring new technologies such as Golang for system optimization.
               </p>
             </div>
           </div>
