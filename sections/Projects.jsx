@@ -53,7 +53,7 @@ const Project = () => {
               {/* Project Image */}
               <div
                 className={
-                  "w-[330px] shadow-md shadow-zinc-300 dark:shadow-zinc-700 h-48 bg-no-repeat flex flex-col justify-end rounded overflow-hidden bg-cover"
+                  "w-[330px] shadow-md shadow-zinc-300 dark:shadow-zinc-700 h-48 bg-no-repeat flex flex-col justify-end rounded overflow-hidden bg-cover bg-center"
                 }
                 onMouseLeave={() => setHeight1("")}
                 onMouseMove={() => setHeight1(project.projectName)}
