@@ -21,7 +21,7 @@
     "react-icons": "^4.9.0",
     "react-responsive-carousel": "^3.2.23",
     "react-responsive-masonry": "^2.1.7",
-    "react-syntax-highlighter": "^15.5.0",
+    "react-syntax-highlighter": "^5.8.0",
     "sharp": "^0.33.0"
   },
   "devDependencies": {
